@@ -9,12 +9,14 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rollup -c",
-    "test": "jest"
+    "test": "jest",
+    "release": "yarn build && changeset publish"
   },
   "author": "Tom Jeatt",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@changesets/cli": "^2.16.0",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
     "@storybook/addon-actions": "^6.2.9",
