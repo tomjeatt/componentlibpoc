@@ -1,6 +1,6 @@
 {
   "name": "@tjeatt/componentlibpoc",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "POC UI library",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
