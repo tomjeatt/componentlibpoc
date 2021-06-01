@@ -1,6 +1,6 @@
 {
-  "name": "@tjeatt/componentlibpoc",
-  "version": "0.1.0",
+  "name": "@tomjeatt/componentlibpoc",
+  "version": "0.0.1",
   "description": "POC UI library",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -12,6 +12,7 @@
     "test": "jest",
     "release": "yarn build && changeset publish"
   },
+  "repository": "git://github.com/tomjeatt/componentlibpoc",
   "author": "Tom Jeatt",
   "license": "MIT",
   "devDependencies": {
